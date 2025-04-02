@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Edition: Peggy Guggenheim's Letter to Betty Parsons (1947)</title>
+        <author>Peggy Guggenheim</author>
+        <respStmt>
+          <resp>Digitized by</resp>
+          <persName>Kaosaier Wusiman</persName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1">Private edition,<date> January 2025</date></edition>
+        <respStmt>
+          <resp>Edited by</resp>
+          <persName>Kaosaier Wusiman</persName>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>University of Bologna</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2025">2025</date>
+        <availability>
+          <p>Open access</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title level="a">Letter to Betty Parsons Regarding Jackson Pollock</title>
+          <author>Peggy Guggenheim</author>
+          <publisher>Archives of American Art</publisher>
+          <date when="1947-05-05">5 May 1947</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <person xml:id="Guggenheim" sex="female" sameAs="https://www.wikidata.org/wiki/Q233806">
+          <persName>Peggy Guggenheim</persName>
+          <occupation>Art Collector</occupation>
+          <note>Founded the Art of This Century gallery in New York (1942-1947)</note>
+        </person>
+        <person xml:id="Parsons" sex="female" sameAs="https://www.wikidata.org/wiki/Q435791">
+          <persName>Betty Parsons</persName>
+          <occupation>Art Dealer</occupation>
+          <note>Operated the Betty Parsons Gallery (1946-1983), key promoter of Abstract Expressionism</note>
+        </person>
+        <person xml:id="Pollock" sex="male" sameAs="https://www.wikidata.org/wiki/Q37571">
+          <persName>Jackson Pollock</persName>
+          <occupation>Painter</occupation>
+          <note>Under contract with Peggy Guggenheim (1943-1947)</note>
+        </person>
+      </particDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#Guggenheim"/>
+          <placeName>30 WEST FIFTY SEVENTH STREET</placeName>
+          <date when="1947-05-05"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#Parsons"/>
+          <placeName>15 East 57th Street, New York City</placeName>
+        </correspAction>
+      </correspDesc>
+       <handNotes>
+        <handNote xml:id="pencil" script="cursive" medium="graphite"/> 
+      </handNotes>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <address>
+            <orgName ref="https://www.wikidata.org/wiki/Q705846">Art of This Century</orgName>
+            <addrLine>30 WEST FIFTY SEVENTH STREET</addrLine>
+             <postCode>CI 6-0037 NY 19</postCode>
+          </address>
+          <dateline>
+            <date when="1947-05-05">May 5, 1947</date>
+             <address>
+               <persName>Miss Betty Parson</persName>
+               <addrLine>15 East 57th Street</addrLine>
+             <settlement>New York City</settlement>
+            </address>
+        </dateline>
+        <salute>Dear <persName ref="#Parsons">Betty</persName>;</salute>
+      </opener>
+
+       
+        <div type="body">
+          <p>This is to confirm our <del rend="overstrike">telephone</del>conversation
+            <lb/>about<persName ref="#Pollock">Jackson Pollock</persName>.I am very pleased that you are going to
+            <lb/>take him on in your gallery and give him a show next winter.
+            <lb/>From now on he will bring his work to you and you will sell it
+            <lb/>taking the usual one third discount and remitting the other
+            <lb/>two thirds of the sales to me. Before leaving I will send you
+            <lb/>some of his unsold paintings of the past few years and I will
+            <lb/>give you all the data necessary concerning him whenever you
+            <lb/>like. Please let me know when I can send the paintings to you.
+            <lb/>Either late May or the first days of June.
+          </p>
+        </div>
+
+        
+        <closer>
+          <salute>Yours sincerely,</salute>
+          <signed>
+            <lb/><persName ref="#Guggenheim">Peggy Guggenheim</persName>
+          </signed>
+          </closer>
+
+        <!-- hand -->
+        <postscript>
+         <p>
+          <handShift new="#pencil"/>
+            <lb/><persName ref="#Guggenheim">Peggy Guggenheim</persName>
+            <lb/>Please write <add place="margin" rend="superscript">one</add> to confirm this
+            <lb/>agreement
+         </p>
+        </postscript>
+      
+     
+      </div>
+    </body>
+  </text>
+</TEI>
