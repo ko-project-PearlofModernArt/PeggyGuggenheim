@@ -12,3 +12,5 @@ Potrait of Peggy Guggenheim,foaf:depicts,PeggyGuggenheim
 Potrait of Peggy Guggenheim,crm:P52_has_current_owner,PeggyGuggenheimCollection
 ManRay,owl:sameAs,https://www.wikidata.org/wiki/Q46139
 ManRay,rdf:type,crm:E21_Person
+Peggy_Guggenheim_Collection_Aquisition,owl:sameAs,https://www.guggenheim-venice.it/en/art/library-archive-photography/
+Peggy_Guggenheim_Collection_Aquisition,rdf:type,fabio:repository
