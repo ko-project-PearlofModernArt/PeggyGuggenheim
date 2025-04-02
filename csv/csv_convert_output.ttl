@@ -1,0 +1,158 @@
+@base <https://w3id.org/pearlofmodernart.org/> .
+@prefix cdwa: <https://www.getty.edu/research/publications/electronic_publications/cdwa/> .
+@prefix crm: <https://www.cidoc-crm.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <https://sparontologies.github.io/fabio/current/fabio.html> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<item/Archival_document> dcterms:creator <person/Silvio_Branzi> ;
+    dcterms:isPartOf <document/Archivio_Silvio_Branzi_collection.> ;
+    dcterms:issued "\"1948\""^^xsd:date ;
+    owl:sameAs "https://archive.org/details/venezia-collezione-peggy-guggenheim-1948-1970/page/n54/mode/thumb"^^xsd:string ;
+    schema:inLanguage "Italian"^^xsd:string ;
+    crm:P129_is_about <person/PeggyGuggenheim> ;
+    cdwa:DimensionDescription "\"225.0M\""^^xsd:string .
+
+<item/Book> a <fabio:Book> ;
+    dcterms:creator <person/Mary_V.Dearborn> ;
+    dcterms:issued "\"2004\""^^xsd:date ;
+    owl:sameAs "https://archive.org/details/mistressofmodern00dear"^^xsd:string ;
+    schema:inLanguage "\"English\""^^xsd:string ;
+    schema:mentions <art_gallery/The_Gallery_Art_of_This_Century> ;
+    fabio:hasPublisher <organization/Houghton_Mifflin> ;
+    crm:P129_is_about <person/PeggyGuggenheim> ;
+    crm:P2_has_type "\"Biography\""^^xsd:string .
+
+<item/Catalog> a fabio:catalog ;
+    dcterms:issued "1987"^^xsd:date ;
+    schema:inLanguage "English"^^xsd:string ;
+    fabio:hasPublisher <organization/Solomon_R._Guggenheim_Foundation> ;
+    crm:P129_is_about <person/PeggyGuggenheim> ;
+    crm:P2_has_type "Exhibition Catalogue"^^xsd:string .
+
+<item/PhotoOfPeggyAndArtist> a <crm:E36_Visual_Item> ;
+    dcterms:creator <person/Herman_Landshoff> ;
+    dcterms:issued "1942"^^xsd:date ;
+    dcterms:medium "Gelatin silver print"^^xsd:string ;
+    prov:wasDerivedFrom <repository/National_Portrait_Gallery_Collection> ;
+    foaf:depicts <person/PeggyGuggenheim> ;
+    crm:P2_has_type "\"Photograph\""^^xsd:string ;
+    crm:P53_has_former_or_current_location <place/New_York_City_USA> ;
+    cdwa:DimensionDescription "Image/Sheet: 23.5cm x 18.5cm (9 1/4' x 7 5/16'); Mount: 34cm x 26.6cm (13 3/8' x 10 1/2')"^^xsd:string .
+
+<item/Potrait_of_Peggy_Guggenheim> a <crm:E36_Visual_Item> ;
+    dcterms:creator <person/ManRay> ;
+    dcterms:issued "\"1925\""^^xsd:date ;
+    dcterms:medium "Gelatin silver print"^^xsd:string ;
+    dcterms:rights "Solomon R. Guggenheim Foundation, New York. Gift, Carla Emil and Rich Silverstein"^^xsd:string ;
+    owl:sameAs "https://www.guggenheim-venice.it/en/art/works/peggy-guggenheim-3/"^^xsd:string ;
+    prov:wasDerivedFrom <repository/Peggy_Guggenheim_Collection_Aquisition> ;
+    foaf:depicts <person/PeggyGuggenheim> ;
+    fabio:has_access_date "\"2011-04-07\""^^xsd:date ;
+    crm:P52_has_current_owner <organization/PeggyGuggenheimCollection> ;
+    cdwa:DimensionDescription "\"11.2x7.9cm\""^^xsd:string .
+
+<item/Solomon_R._Guggenheim_Foundation> a foaf:Organization ;
+    dcterms:creator <person/Solomon_R._Guggenheim> ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1143822"^^xsd:string ;
+    schema:director <person/RichardArmstrong> ;
+    crm:P2_has_type "schema:NonprofitType"^^xsd:string ;
+    crm:P52_is_current_owner_of <museum/Guggenheim_Abu_Dhabi>,
+        <museum/Guggenheim_Museum_Bilbao>,
+        <museum/PeggyGuggenheimCollection> ;
+    crm:P53_has_former_or_current_location <place/New_York_City_USA> ;
+    crm:P82a_begin_of_the_begin "\"1937\""^^xsd:date .
+
+<item/VedioClip> dcterms:issued "2016"^^xsd:date ;
+    owl:sameAs "https://video-ondemand.dw.com/dwtv_video/flv/emd/"^^xsd:string ;
+    schema:genre "Factual"^^xsd:string ;
+    schema:inLanguage "German"^^xsd:string ;
+    crm:P129_is_about <person/PeggyGuggenheim> ;
+    crm:P2_has_type "CLIP"^^xsd:string ;
+    crm:P4_has_time_span "0:03:55"^^xsd:string .
+
+<item/letter> a <fabio:letter> ;
+    dcterms:creator <person/PeggyGuggenheim> ;
+    dcterms:issued "\"1949-05-05\""^^xsd:date ;
+    owl:sameAs "https://www.aaa.si.edu/collections/items/detail/peggy-guggenheim-new-york-ny-letter-to-betty-parsons-new-york-ny-494"^^xsd:string ;
+    crm:P129_is_about <person/BettyParsonsGallery> ;
+    crm:P2_has_type "Correspondence"^^xsd:string ;
+    crm:P53_has_former_or_current_location <place/New_York_City_USA> ;
+    cdwa:DimensionDescription "\"Letter : 1 p. : typescript ; 26 x 21 cm.\""^^xsd:string .
+
+<item/photo_of_Art_of_This_Century_Gallery> a <crm:E36_Visual_Item> ;
+    dcterms:creator <person/BereniceAbbott> ;
+    dcterms:issued "\"1942\""^^xsd:date ;
+    dcterms:medium "Gelatin silver print"^^xsd:string ;
+    dcterms:rights "\"Solomon R. Guggenheim Foundation, New York. Purchased with funds donated by Alberto and Gioietta Vitale, the Guggenheim Circle of the Peggy Guggenheim Collection, Sotheby's, and through prior gifts of the M.R. Taylor Bequest and Asbjorn Lunde, 2016\""^^xsd:string ;
+    owl:sameAs "https://www.guggenheim-venice.it/en/art/works/abstract-gallery-art-of-this-century/"^^xsd:string ;
+    foaf:depicts <person/PeggyGuggenheim> ;
+    crm:P2_has_type "Photograph"^^xsd:string ;
+    crm:P52_has_current_owner <organization/PeggyGuggenheimCollection> ;
+    cdwa:DimensionDescription "\"25.4 x 20.3 cm\""^^xsd:string .
+
+<art_gallery/The_Gallery_Art_of_This_Century> a schema:ArtGallery .
+
+<item/PeggyGuggenheimCollection> a schema:museum ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1049033"^^xsd:string ;
+    schema:director <person/KaroleVail> ;
+    crm:P129_is_about <person/PeggyGuggenheim> ;
+    crm:P2_has_type "\"Art Museum\""^^xsd:string ;
+    crm:P52_has_current_owner <organization/Solomon_R._Guggenheim_Foundation> ;
+    crm:P53_has_former_or_current_location <place/PalazzoVenierdeiLeoniVenice> ;
+    crm:P82a_begin_of_the_begin "\"1951\""^^xsd:date,
+        "\"1980\""^^xsd:date .
+
+<museum/Guggenheim_Abu_Dhabi> a schema:museum ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q1321116"^^xsd:string .
+
+<museum/Guggenheim_Museum_Bilbao> a schema:museum ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q179199"^^xsd:string .
+
+<organization/Houghton_Mifflin> a foaf:Organization ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q390074"^^xsd:string .
+
+<person/BereniceAbbott> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q231861"^^xsd:string .
+
+<person/ManRay> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q46139"^^xsd:string .
+
+<person/Mary_V.Dearborn> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q6779308"^^xsd:string .
+
+<person/RichardArmstrong> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q7323783"^^xsd:string .
+
+<person/Silvio_Branzi> a crm:E21_Person .
+
+<person/Solomon_R._Guggenheim> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q444352"^^xsd:string ;
+    foaf:member <group/GuggenheimFamily> .
+
+<repository/Peggy_Guggenheim_Collection_Aquisition> a fabio:repository ;
+    owl:sameAs "https://www.guggenheim-venice.it/en/art/library-archive-photography/"^^xsd:string .
+
+<group/GuggenheimFamily> owl:sameAs "https://www.wikidata.org/wiki/Q2032400"^^xsd:string .
+
+<organization/Solomon_R._Guggenheim_Foundation> owl:sameAs "https://www.wikidata.org/wiki/Q1143822"^^xsd:string .
+
+<person/KaroleVail> a crm:E21_Person ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q34249492"^^xsd:string ;
+    foaf:member <group/GuggenheimFamily> .
+
+<place/PalazzoVenierdeiLeoniVenice> a <E53_Place> ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q2047620"^^xsd:string .
+
+<place/New_York_City_USA> a crm:E53_Place ;
+    owl:sameAs "https://www.wikidata.org/wiki/Q60"^^xsd:string .
+
+<person/PeggyGuggenheim> owl:sameAs "https://www.wikidata.org/wiki/Q233806"^^xsd:string ;
+    schema:relatedTo <person/KaroleVail> ;
+    crm:P74_has_current_or_former_residence <place/PalazzoVenierdeiLeoniVenice> ;
+    crm:P94_has_created <item/PeggyGuggenheimCollection> .
+
