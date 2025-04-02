@@ -1,0 +1,20 @@
+subject,predicate,object
+photo of Art of This Century Gallery,owl:sameAs,https://www.guggenheim-venice.it/en/art/works/abstract-gallery-art-of-this-century/
+photo of Art of This Century Gallery,crm:P_102_has_title,"Abstract_Gallery_Art_of_This_Century"
+photo of Art of This Century Gallery,dcterms:Medium,Gelatin silver print
+photo of Art of This Century Gallery,dcterms:issued,"""1942"""
+photo of Art of This Century Gallery,cdwa:DimensionDescription,"""25.4 x 20.3 cm"""
+photo of Art of This Century Gallery,dcterms:rights,"""Solomon R. Guggenheim Foundation, New York. Purchased with funds donated by Alberto and Gioietta Vitale, the Guggenheim Circle of the Peggy Guggenheim Collection, Sotheby's, and through prior gifts of the M.R. Taylor Bequest and Asbjorn Lunde, 2016"""
+photo of Art of This Century Gallery,dcterms:creator,BereniceAbbott
+photo of Art of This Century Gallery,dcterms:prov:wasDerivedFrom,Peggy_Guggenheim_Collection_Aquisition
+photo of Art of This Century Gallery,crm:P2_has_type,Photograph
+photo of Art of This Century Gallery,foaf:depicts,PeggyGuggenheim
+photo of Art of This Century Gallery,crm:P52_has_current_owner,PeggyGuggenheimCollection
+photo of Art of This Century Gallery,rdf:type,crm:E36_Visual_Item
+BereniceAbbott,rdf:type,crm:E21_Person
+BereniceAbbott,owl:sameAs,https://www.wikidata.org/wiki/Q231861
+
+
+
+
+

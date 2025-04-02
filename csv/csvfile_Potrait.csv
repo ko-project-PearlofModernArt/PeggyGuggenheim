@@ -1,0 +1,14 @@
+subject,predicate,object
+Potrait of Peggy Guggenheim,rdf:type,crm:E36_Visual_Item
+Potrait of Peggy Guggenheim,owl:sameAs,https://www.guggenheim-venice.it/en/art/works/peggy-guggenheim-3/
+Potrait of Peggy Guggenheim,dcterms:creator,ManRay
+Potrait of Peggy Guggenheim,dcterms:rights,"Solomon R. Guggenheim Foundation, New York. Gift, Carla Emil and Rich Silverstein"
+Potrait of Peggy Guggenheim,dcterms:issued,"""1925"""
+Potrait of Peggy Guggenheim,cdwa:DimensionDescription,"""11.2x7.9cm"""
+Potrait of Peggy Guggenheim,prov:wasDerivedFrom,Peggy_Guggenheim_Collection_Aquisition
+Potrait of Peggy Guggenheim,fabio:has_access_date,"""2011-04-07"""
+Potrait of Peggy Guggenheim,dcterms:Medium,"Gelatin silver print"
+Potrait of Peggy Guggenheim,foaf:depicts,PeggyGuggenheim
+Potrait of Peggy Guggenheim,crm:P52_has_current_owner,PeggyGuggenheimCollection
+ManRay,owl:sameAs,https://www.wikidata.org/wiki/Q46139
+ManRay,rdf:type,crm:E21_Person

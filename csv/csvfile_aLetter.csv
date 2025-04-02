@@ -1,0 +1,11 @@
+subject,predicate,object
+letter,crm:P129is_about,Pollock_Jackson
+letter,crm:P2_has_type,Correspondence
+letter,dcterms:creator,PeggyGuggenheim
+letter,dcterms:issued,"""1949-05-05"""
+letter,crm:P129_is_about,BettyParsonsGallery
+letter,cdwa:DimensionDescription,"""Letter : 1 p. : typescript ; 26 x 21 cm."""
+letter,crm:P53_has_former_or_current_location,New York City_USA
+letter,rdf:type,fabio:letter
+
+

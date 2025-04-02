@@ -1,0 +1,25 @@
+subject,predicate,object
+Solomon R. Guggenheim Foundation,owl:sameAs,https://www.wikidata.org/wiki/Q1143822
+Solomon R. Guggenheim Foundation,rdf:type,foaf:Organization
+Solomon R. Guggenheim Foundation,schema:director,RichardArmstrong
+Solomon R. Guggenheim Foundation,crm:P2_has_type,schema:NonprofitType
+Solomon R. Guggenheim Foundation,crm:P52_is_current_owner_of,Guggenheim Abu Dhabi
+Solomon R. Guggenheim Foundation,crm:P52_is_current_owner_of,Guggenheim Museum Bilbao
+Solomon R. Guggenheim Foundation,crm:P52_is_current_owner_of,PeggyGuggenheimCollection
+Solomon R. Guggenheim Foundation,crm:P82a_begin_of_the_begin,"""1937"""
+Solomon R. Guggenheim Foundation,crm:P53_has_former_or_current_location,New York City_USA
+Solomon R. Guggenheim Foundation,dcterms:creator,Solomon_R._Guggenheim
+Solomon_R._Guggenheim,owl:sameAs,https://www.wikidata.org/wiki/Q444352
+Solomon_R._Guggenheim,foaf:member,GuggenheimFamily
+Solomon_R._Guggenheim,rdf:type,crm:E21_Person
+RichardArmstrong,rdf:type,crm:E21_Person
+RichardArmstrong,owl:sameAs,https://www.wikidata.org/wiki/Q7323783
+Guggenheim Abu Dhabi,owl:sameAs,https://www.wikidata.org/wiki/Q1321116
+Guggenheim Museum Bilbao,owl:sameAs,https://www.wikidata.org/wiki/Q179199
+New York City_USA,owl:sameAs,https://www.wikidata.org/wiki/Q60
+New York City_USA,rdf:type,crm:E53_Place
+GuggenheimFamily,owl:sameAs,https://www.wikidata.org/wiki/Q2032400
+Guggenheim Museum Bilbao,rdf:type,schema:Museum
+Guggenheim Abu Dhabi,rdf:type,schema:Museum
+
+

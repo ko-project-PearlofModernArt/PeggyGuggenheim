@@ -1,0 +1,16 @@
+subject,predicate,object
+PhotoOfPeggyAndArtist,rdf:type,crm:E36_Visual_Item
+PhotoOfPeggyAndArtist,crm:P_102_has_title,"Artists_in_Exile"
+PhotoOfPeggyAndArtist,dcterms:issued,1942
+PhotoOfPeggyAndArtist,prov:wasDerivedFrom,National Portrait Gallery Collection
+PhotoOfPeggyAndArtist,cdwa:DimensionDescription,"Image/Sheet: 23.5cm x 18.5cm (9 1/4' x 7 5/16'); Mount: 34cm x 26.6cm (13 3/8' x 10 1/2')"
+PhotoOfPeggyAndArtist,dcterms:creator,Herman_Landshoff
+PhotoOfPeggyAndArtist,dcterms:Medium,"Gelatin silver print"
+PhotoOfPeggyAndArtist,foaf:depicts,PeggyGuggenheim
+PhotoOfPeggyAndArtist,crm:P53_has_former_or_current_location,New York City_USA
+PhotoOfPeggyAndArtist,foaf:depicts,PeggyGuggenheim
+PhotoOfPeggyAndArtist,crm:P2_has_type,"""Photograph"""
+
+
+
+

@@ -1,0 +1,19 @@
+subject,predicate,object
+Book,owl:sameAs,https://archive.org/details/mistressofmodern00dear
+Book,fabio:hasPublisher,Houghton Mifflin
+Book,schema:inLanguage,"""English"""
+Book,dcterms:issued,"""2004"""
+Book,dcterms:creator,Mary_V.Dearborn
+Book,crm:P2_has_type,"""Biography"""
+Book,crm:P_102_has_title,Peggy_Guggenheim_Mistress_Of_Modernism
+Book,crm:P129_is_about,PeggyGuggenheim
+Book,rdf:type,fabio:Book
+Book,schema:mentions,The_Gallery_Art_of_This_Century
+Houghton Mifflin,owl:sameAs,https://www.wikidata.org/wiki/Q390074
+Houghton Mifflin,rdf:type,foaf:Organization
+Mary_V.Dearborn,owl:sameAs,https://www.wikidata.org/wiki/Q6779308
+Mary_V.Dearborn,rdf:type,crm:E21_Person
+The_Gallery_Art_of_This_Century,rdf:type,schema:ArtGallery
+The_Gallery_Art_of_This_Century,owl:sameAs:https://www.wikidata.org/wiki/Q705846
+
+

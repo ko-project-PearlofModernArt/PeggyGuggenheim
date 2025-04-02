@@ -1,0 +1,19 @@
+subject,predicate,object
+PeggyGuggenheimCollection,rdf:type,schema:Museum
+PeggyGuggenheimCollection,owl:sameAs,https://www.wikidata.org/wiki/Q1049033
+PeggyGuggenheimCollection,crm:P53_has_former_or_current_location,PalazzoVenierdeiLeoniVenice
+PeggyGuggenheimCollection,crm:P82a_begin_of_the_begin,"""1980"""
+PeggyGuggenheimCollection,crm:P82a_begin_of_the_begin,"""1951"""
+PeggyGuggenheimCollection,crm:P2_has_type,"""Art Museum"""
+PeggyGuggenheimCollection,crm:P52_has_current_owner,Solomon R. Guggenheim Foundation
+PeggyGuggenheimCollection,crm:P129_is_about,PeggyGuggenheim
+PeggyGuggenheim,crm:P94_has_created,PeggyGuggenheimCollection
+PeggyGuggenheim,crm:P74_has_current_or_former_residence,PalazzoVenierdeiLeoniVenice
+PeggyGuggenheim,schema:relatedTo,KaroleVail
+PalazzoVenierdeiLeoniVenice,rdf:type,E53_Place
+PalazzoVenierdeiLeoniVenice,owl:sameAs,https://www.wikidata.org/wiki/Q2047620
+PeggyGuggenheimCollection,schema:director,KaroleVail
+KaroleVail,rdf:type,crm:E21_Person
+KaroleVail,owl:sameAs,https://www.wikidata.org/wiki/Q34249492
+KaroleVail,foaf:member,GuggenheimFamily
+

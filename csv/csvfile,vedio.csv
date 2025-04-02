@@ -1,0 +1,9 @@
+subject,predicate,object
+VedioClip,dcterms:issued,2016
+VedioClip,crm:P2_has_type,CLIP
+VedioClip,crm:P_102_has_title,PeggyGuggenheim: Ein Leben für die Kunst
+VedioClip,crm:P4_has_time_span,"0:03:55"
+VedioClip,schema:inLanguage,German
+VedioClip,crm:P129_is_about,PeggyGuggenheim
+VedioClip,owl:sameAs,https://video-ondemand.dw.com/dwtv_video/flv/emd/
+VedioClip,schema:genre,"Factual"
