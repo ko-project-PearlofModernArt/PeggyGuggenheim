@@ -1,0 +1,75 @@
+@prefix crm: <https://www.cidoc-crm.org/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <https://sparontologies.github.io/fabio/current/fabio.html> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <https://schema.org/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/pearlofmodernart.org/letter> a fabio:Letter ;
+    dc:creator <https://w3id.org/pearlofmodernart.org/person/Peggy_Guggenheim> ;
+    dc:title "Digital Edition: Peggy Guggenheim's Letter to Betty Parsons (1947)" ;
+    dcterms:created "2025"^^xsd:date ;
+    schema:hasPart <https://w3id.org/pearlofmodernart.org/text/body>,
+        <https://w3id.org/pearlofmodernart.org/text/closer_salute>,
+        <https://w3id.org/pearlofmodernart.org/text/opener_salute>,
+        <https://w3id.org/pearlofmodernart.org/text/postscript> ;
+    crm:P129_is_about <https://w3id.org/pearlofmodernart.org/event/received-1947-05-05>,
+        <https://w3id.org/pearlofmodernart.org/event/sent-1947-05-05> .
+
+<https://w3id.org/pearlofmodernart.org/text/closer> schema:hasPart <https://w3id.org/pearlofmodernart.org/text/closer_salute> .
+
+<https://w3id.org/pearlofmodernart.org/text/opener> schema:hasPart <https://w3id.org/pearlofmodernart.org/text/opener_salute> .
+
+<https://w3id.org/pearlofmodernart.org/text/postscript_signature> a schema:Text ;
+    rdf:value "Peggy Guggenheim" ;
+    schema:author <https://w3id.org/pearlofmodernart.org/person/Guggenheim> .
+
+<https://w3id.org/pearlofmodernart.org/event/received-1947-05-05> a crm:E7_Activity ;
+    crm:P14_carried_out_by <https://w3id.org/pearlofmodernart.org/person/Parsons> ;
+    crm:P7_took_place_at <https://w3id.org/pearlofmodernart.org/place/15_East_57th_Street,_New_York_City> .
+
+<https://w3id.org/pearlofmodernart.org/event/sent-1947-05-05> a crm:E7_Activity ;
+    crm:P14_carried_out_by <https://w3id.org/pearlofmodernart.org/person/Guggenheim> ;
+    crm:P4_has_time_span "1947-05-05"^^xsd:date ;
+    crm:P7_took_place_at <https://w3id.org/pearlofmodernart.org/place/30_WEST_FIFTY_SEVENTH_STREET> .
+
+<https://w3id.org/pearlofmodernart.org/person/Parsons> a foaf:Person ;
+    owl:sameAs wikidata:Q435791 ;
+    foaf:name "Betty Parsons" ;
+    schema:hasOccupation "Art Dealer" .
+
+<https://w3id.org/pearlofmodernart.org/person/Peggy_Guggenheim> a foaf:Person ;
+    foaf:name "Peggy Guggenheim" .
+
+<https://w3id.org/pearlofmodernart.org/person/Pollock> a foaf:Person ;
+    owl:sameAs wikidata:Q37571 ;
+    foaf:name "Jackson Pollock" ;
+    schema:hasOccupation "Painter" .
+
+<https://w3id.org/pearlofmodernart.org/place/15_East_57th_Street,_New_York_City> a schema:Place ;
+    schema:name "15 East 57th Street, New York City" .
+
+<https://w3id.org/pearlofmodernart.org/place/30_WEST_FIFTY_SEVENTH_STREET> a schema:Place ;
+    schema:name "30 WEST FIFTY SEVENTH STREET" .
+
+<https://w3id.org/pearlofmodernart.org/text/body> a schema:Text ;
+    rdf:value "This is to confirm our telephone conversation       about Jackson Pollock .I am very pleased that you are going to       take him on in your gallery and give him a show next winter.       From now on he will bring his work to you and you will sell it       taking the usual one third discount and remitting the other       two thirds of the sales to me. Before leaving I will send you       some of his unsold paintings of the past few years and I will       give you all the data necessary concerning him whenever you       like. Please let me know when I can send the paintings to you.       Either late May or the first days of June." ;
+    schema:mentions <https://w3id.org/pearlofmodernart.org/person/Pollock> .
+
+<https://w3id.org/pearlofmodernart.org/text/postscript> a schema:Text ;
+    rdf:value "Please write one to confirm this agreement" .
+
+<https://w3id.org/pearlofmodernart.org/person/Guggenheim> a foaf:Person ;
+    owl:sameAs wikidata:Q233806 ;
+    foaf:name "Peggy Guggenheim" ;
+    schema:hasOccupation "Art Collector" .
+
+<https://w3id.org/pearlofmodernart.org/text/closer_salute> a schema:Text ;
+    rdf:value "Yours sincerely," .
+
+<https://w3id.org/pearlofmodernart.org/text/opener_salute> a schema:Text ;
+    rdf:value "Dear  Betty ;" .
