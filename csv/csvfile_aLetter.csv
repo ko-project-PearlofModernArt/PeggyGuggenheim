@@ -7,5 +7,4 @@ letter,crm:P129_is_about,BettyParsonsGallery
 letter,cdwa:DimensionDescription,"""Letter : 1 p. : typescript ; 26 x 21 cm."""
 letter,crm:P53_has_former_or_current_location,New York City_USA
 letter,rdf:type,fabio:letter
-
-
+letter,owl:sameAs,https://www.aaa.si.edu/collections/items/detail/peggy-guggenheim-new-york-ny-letter-to-betty-parsons-new-york-ny-494
