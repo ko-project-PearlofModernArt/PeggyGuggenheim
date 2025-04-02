@@ -1,0 +1,10 @@
+subject,predicate,object
+Catalog,crm:P_102_has_title,Peggy_Guggenheim_s_Other_Legacy
+Catalog,dcterms:issued,1987
+Catalog,crm:P2_has_type,Exhibition Catalogue
+Catalog,schema:inLanguage,English
+Catalog,fabio:hasPublisher,Solomon R. Guggenheim Foundation
+Catalog,crm:P129_is_about,PeggyGuggenheim
+Catalog,rdf:type,fabio:catalog
+Solomon R. Guggenheim Foundation,owl:sameAs,https://www.wikidata.org/wiki/Q1143822
+PeggyGuggenheim,owl:sameAs,https://www.wikidata.org/wiki/Q233806
